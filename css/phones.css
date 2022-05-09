@@ -189,11 +189,7 @@ h2 a:hover{ /*myron mouse hover*/
 }
 .item-container:hover{
     background: lavender;
-    transition: all 0.7s ease-in-out;
-}
-.item-container:hover #card-img{
-    transform: scale(1.1);
-    transition: all 0.7s ease-in-out;
+   
 }
 .card-item{
     cursor: pointer;
@@ -221,7 +217,6 @@ h2 a:hover{ /*myron mouse hover*/
     
 }
 .item-container:hover #add-to-cart{
-    transition: all 0.7s ease-in-out;
     opacity: 1;
 }
 #item-price{
@@ -306,32 +301,6 @@ footer{
     }
 }
 
-@media only screen and (max-width : 800px){
-    .items-detail{
-        display: block;
-        width: 70vw;
-        height: 70vh;
-        padding: 0 4.5rem;
-    }
-    #details-img{
-        width: 8rem;
-        height: 9rem;
-    }
-    #detail-title{
-        font-size: 1.7rem;
-        margin-top: 0rem;
-    }
-    #detail-price,#delievery{
-        margin-top: 0.5rem;
-    }
-    #spec,.items-detail  ul{
-        display: none;
-    }
-    .image-container{
-        padding: 1rem;
-        margin-top: 1rem;
-    }
-}
 
 
 
