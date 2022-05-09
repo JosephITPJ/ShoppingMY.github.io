@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel = "stylesheet " href="css/food.css">
+                
+        <title> Shopping </title>
+         <!--  side bar javascript-->
+         <script> 
+        function myFunction() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added to cart ";
+    } else {
+      txt = "You pressed Cancel!";
+        }
+  document.getElementById("demo").innerHTML = txt;
+ 
+}
+function start() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo1").innerHTML = txt;
+    }
+    function third() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo2").innerHTML = txt;
+    }
+    function fourth() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo3").innerHTML = txt;
+    }
+    function fifth() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo4").innerHTML = txt;
+    }
+    function sixth() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo5").innerHTML = txt;
+    }
+    function siventh() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo6").innerHTML = txt;
+    }
+    function eight() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo7").innerHTML = txt;
+    }
+    function nine() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo8").innerHTML = txt;
+    }
+    function ten() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo9").innerHTML = txt;
+    }
+    function eleven() {
+     var txt;
+    if (confirm("are you sure ?")) {
+      txt = "sucssesfully added  ";
+    } else {
+      txt = "You pressed Cancel";
+        }
+  document.getElementById("demo10").innerHTML = txt;
+    }
+            function goTo()
+  {
+      location.href = document.getElementById('link_id').value;
+  }
+            function openNav() {
+                          document.getElementById("mySidenav").style.width = "250px";
+                        }
+                        
+                        function closeNav() {
+                          document.getElementById("mySidenav").style.width = "0";
+                        }
+  
+          </script>
+      </head>
+     
+  <body>
+     
+      <header>
+          
+          <!-- M Y R O N  href-->
+          <h2 > <a href="index.html" class="logo" >  M Y R O N</a></h2>
+           <!-- NAVIGATION BAR  -->
+                      <ul>
+                          <li><a href="#"> Home </a> </li>
+                          <li><a href="#"> Our Services </a> </li>
+                          <li><a href="#"> Contact Us </a> </li>
+                          <li><a href="#"> Daily deals  </a> </li>
+                          <li><a href="#"> My Account  </a> </li>
+                  <div class="cart">
+                      <!-- your cart -->
+                      <li><a href="#">  <img src="images/cart.png" alt="cart png " width="45" height="45" style="vertical-align:middle;margin:1px 20px">  </a></li>
+                     </div>
+              </ul>
+              
+              </header>
+              <div class = "background-image ">  
+                     
+                <div class="container">
+                  <h3>  SuperMarket</h3>
+                
+
+
+                </div>
+                <span class = "sidebar"  onclick="openNav()">&#9776; EXPLORE  </span>
+
+                <!-- sidebar navagition -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                     <!-- SIDEBAR NAVIGATION href -->
+                    <h4 >Category</h4>
+                    <a href="#"> FAQ  </a>
+                    <a href="#">Electronics </a>
+                    <a href="#">Cars</a>
+                    <a href="#">Supermarket</a>
+                    <a href="#">Phones</a>
+                    <a href="#">Sports</a>
+                    <a href="#">Computing</a>
+                    <a href="#">Health & beauty</a>
+                    <a href="#">Furniture & home </a>
+                </div>
+                
+                <div class="head-section">
+                    <h5>Clearance Sale  | Free Shipping Nationwide </h5>
+                </div>
+                
+        <div class=" gallery">
+                <div class="products">
+                         <img src="images/1.jpg">
+                    <div class=" desc">Italiano Vermicelli Pasta – 1 KG</div>
+                    <div class=" desc2">28 L.E</div>
+                    <div class=" desc2" style ="text-decoration: line-through;float:right;font-size:15px;">32 L.E </div>
+                    <button class= "butn1"  id = "demo"onclick="myFunction()">Add to cart</button>
+                </div>
+                    <div class="products">
+                         <img src="images/2.jpg">
+                    <div class=" desc">Dettol All-Purpose Surface Antiseptic Disinfectant – 950 ml - 2 PCs - 40% off</div> 
+                    <div class=" desc3" style = "padding:10px;text-align:center;float:left;">65 L.E</div>
+                    <div class=" desc3" style ="text-decoration: line-through;float:right;font-size:15px;">69 L.E </div>
+                    <button class= "butn1"  id = "demo1" onclick="start()">Add to cart</button>
+                </div>
+                    <div class="products">
+                        <img src="images/3.jpg">
+                    <div class=" desc">Discount Nuts Chocolate Filled Cone Bites - 100g</div>
+                    <div class=" desc4" style = "padding:10px;text-align:center;float:left;">90 L.E</div>
+                    <div class=" desc4" style ="text-decoration: line-through;float:right;font-size:15px;">100 L.E </div>
+                    <button class= "butn1"  id = "demo2" onclick="third()">Add to cart</button>
+                </div>
+                    <div class="products">
+                    <img src="images/4.jpg">
+                    <div class=" desc">  Finish Dishwasher Tabs - 13 Tabs - 3 Packs</div>
+                    <div class=" desc5" style = "padding:10px;text-align:center;float:left;">80 L.E</div>
+                    <div class=" desc5" style ="text-decoration: line-through;float:right;font-size:15px;">86 L.E </div>
+                    <button class= "butn1"  id = "demo3" onclick="fourth()">Add to cart</button>
+                  
+                </div>
+                <div class="products">
+                    <img src="images/5.jpg">
+                    <div class=" desc">  Heinz Tomato Ketchup – 513gm</div>
+                    <div class=" desc6" style = "padding:10px;text-align:center;float:left;">70 L.E</div>
+                    <div class=" desc6" style ="text-decoration: line-through;float:right;font-size:15px;">90 L.E </div>
+                    <button class= "butn1"  id = "demo4" onclick="fifth()">Add to cart</button>
+                    
+                </div>
+                <div class="products">
+                    <img src="images/6.jpg">
+                    <div class=" desc"> Harvest Fava Beans With Tahini – 400g</div>
+                    <div class=" desc7" style = "margin:2px;padding:10px;text-align:center;float:left;">45 L.E</div>
+                    <div class=" desc7" style ="text-decoration: line-through;float:right;font-size:15px;padding:10px  ;">60L.E </div>
+                    <button class= "butn1"  id = "demo5" onclick="sixth()">Add to cart</button>
+                    
+                </div>
+                
+               
+                
+
+                </div>
+                <div class="head2-section">
+                    <h6>Food Top Deals </h6>
+                    </div>
+                    <div class=" gallery">
+                        <div class="products">
+                                 <img src="images/8.jpg">
+                            <div class=" desc">Galaxy Jewels Assorted Chocolates Box - 650g</div>
+                            <div class=" desc2">200 L.E</div>
+                            <div class=" desc2" style ="text-decoration: line-through;float:right;font-size:15px;">250 L.E </div>
+                            <button class= "butn1"  id = "demo6"onclick="siventh()">Add to cart</button>
+                        </div>
+                            <div class="products">
+                                 <img src="images/9.jpg">
+                            <div class=" desc">Chiclets Spearmint Flavored Chewing Gum - 10 Pcs - 20 Packs</div> 
+                            <div class=" desc3" style = "padding:10px;text-align:center;float:left;">65 L.E</div>
+                            <div class=" desc3" style ="text-decoration: line-through;float:right;font-size:15px;">69 L.E </div>
+                            <button class= "butn1"  id = "demo7" onclick="eight()">Add to cart</button>
+                        </div>
+                            <div class="products">
+                                <img src="images/10.jpg">
+                            <div class=" desc">Knorr Hawawshi Mix - 30 gm</div>
+                            <div class=" desc4" style = "padding:10px;text-align:center;float:left;">90 L.E</div>
+                            <div class=" desc4" style ="text-decoration: line-through;float:right;font-size:15px;">100 L.E </div>
+                            <button class= "butn1"  id = "demo8" onclick="nine ()">Add to cart</button>
+                        </div>
+                           
+                        <div class="products">
+                            <img src="images/12.jpg">
+                            <div class=" desc">  Galaxy Jewels Assorted Chocolates Box - 200g</div>
+                            <div class=" desc6" style = "padding:10px;text-align:center;float:left;">88 L.E</div>
+                            <div class=" desc6" style ="text-decoration: line-through;float:right;font-size:15px;">95 L.E </div>
+                            <button class= "butn1"  id = "demo9" onclick="ten()">Add to cart</button>
+                            
+                        </div>
+                        <div class="products">
+                            <img src="images/13.jpg">
+                            <div class=" desc"> Knorr Cream Of Vegetabl Soup – 70 Gm</div>
+                            <div class=" desc7" style = "margin:2px;padding:10px;text-align:center;float:left;">45 L.E</div>
+                            <div class=" desc7" style ="text-decoration: line-through;float:right;font-size:15px;padding:10px  ;">60L.E </div>
+                            <button class= "butn1"  id = "demo10" onclick="eleven()">Add to cart</button>
+                            
+                        </div>
+                        
+                       
+            </div>
+
+                  <div class="footer">  
+                    @Copyright <a href="index.html"> M Y R O N </a> 2022- All Right Reserved.   
+                    </div>  
+               
+                </body>
+
+
+
+
+
+
+                </html>

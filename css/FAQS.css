@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 50px;
+  font-size: 100%;
+  color: #444;
+  line-height: 1.5;
+  font-family: Roboto;
+  background: linear-gradient(#200016, #10001f);
+  background: radial-gradient(
+    circle,
+    lighten(linear-gradient(#200016, #10001f), 1%),
+    darken(linear-gradient(#200016, #10001f), 20%)
+  );
+}
+
+/* @main-bg-colour:rgb (25,159,158);
+@other-colour: desaturate(spin(@main-bg-colour, 10), 15%);
+@main-font-colour: #fff; */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* .cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+} */
+
+.wrapper {
+  width: 1000px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2em;
+}
+
+ol {
+  counter-reset: my-counter;
+  list-style-type: none;
+}
+
+/* ol ol {
+  margin-left: 0.9em;
+} */
+
+ol li {
+  counter-increment: my-counter;
+  line-height: 1.5;
+
+  &:before {
+    content: counters(my-counter, ".") ".";
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 3px;
+  }
+}
+h1 {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #200016;
+  border-bottom: 1px solid #200016;
+  margin-bottom: 1em;
+}
+.relheader {
+  text-align: center;
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #200016;
+  margin-bottom: 30px;
+}
+.list {
+  list-style-type: circle;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  /* color: #444; */
+  letter-spacing: 2px;
+  line-height: 33px;
+  text-align: left;
+  color: #10001f;
+  /* height: 66px;
+  width: 1289px; */
+}
+.paragraph {
+  font-size: 20px;
+  line-height: 28px;
+  color: #200016;
+}
+.foot {
+  color: rgb(24, 192, 184);
+  text-align: center;
+}
+.home {
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.home:hover {
+  color: aquamarine;
+}
+.footer {
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.footer:hover {
+  color: #444;
+}
