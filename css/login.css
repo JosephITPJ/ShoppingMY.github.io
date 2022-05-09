@@ -1,12 +1,13 @@
 body{
-	margin: 0;
-	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(#200016, #10001f);
+	background-image: url("../images/shopping2.jpg");
+	background-size: cover ;
+ 	background-repeat : no-repeat;
+	opacity: .8;
 }
 .main{
 	width: 350px;
