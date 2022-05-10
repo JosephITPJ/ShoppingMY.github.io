@@ -1,14 +1,13 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box
-;
+    box-sizing: border-box;
 }
-.all{
+body{
     background: linear-gradient(#200016, #10001f);
     /* height:100vh; */
     font-family:system-ui;
-
+    border-bottom: 5px  solid rgb(3, 92, 92) ;
 }
 .container{
     max-width: 1080px;
@@ -75,4 +74,17 @@ h4{
     border-radius:30px;
     text-decoration:none;
     font-weight:bold;
+}
+.btn:hover{
+ color: #200016;
+ background-color: rgb(24, 192, 184);
+}
+.foot {
+    color: rgb(0, 255, 242);
+    text-align: center;
+    background: #10001f;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
 }
