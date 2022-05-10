@@ -220,18 +220,19 @@ h3 {
   font-size: 20px;
 }
 
-footer {
+/* footer {
   margin-bottom: 48px;
   font-size: 14px;
   color: #495057;
   text-align: center;
-}
+} */
 .chair:hover {
   background-color: rgb(24, 192, 184);
   transition: 0.5s;
   border-radius: 8px;
   transform: scale(1.09);
   font-family: cursive;
+  color: #200016;
 }
 .icon1:hover {
   background-color: rgb(24, 192, 184);
@@ -240,6 +241,7 @@ footer {
   border-radius: 8px;
   transform: scale(1.06);
   padding: 10px 10px;
+  color: #200016;
 }
 .icon2:hover {
   background-color: rgb(24, 192, 184);
@@ -248,6 +250,7 @@ footer {
   border-radius: 8px;
   transform: scale(1.06);
   padding: 10px 10px;
+  color: #200016;
 }
 .icon3:hover {
   background-color: rgb(24, 192, 184);
@@ -256,6 +259,7 @@ footer {
   border-radius: 8px;
   transform: scale(1.06);
   padding: 10px 10px;
+  color: #200016;
 }
 .foot {
   color: rgb(24, 192, 184);
