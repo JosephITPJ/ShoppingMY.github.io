@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>clothig shopping</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    
+     <style>
+        body{
+            background-image: url(images/depositphotos_215817878-stock-photo-background-blurred-people-shopping-fashion.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }     
+
+     
+    
+    
+    </style>
+     <script> 
+         
+        function goTo()
+{
+  location.href = document.getElementById('link_id').value;
+}
+        function openNav() {
+                      document.getElementById("mySidenav").style.width = "250px";
+                    }
+                    
+                    function closeNav() {
+                      document.getElementById("mySidenav").style.width = "0";
+                    }
+
+      </script>
+     
+</head>
+<body>
+    <header>
+        <!-- M Y R O N  href-->
+        <h2 > <a href="../index.html" class="logo" >  M Y R O N</a></h2>
+         <!-- NAVIGATION BAR  -->
+                    <ul>
+                        <li><a href="../index.html"> Home </a> </li>
+                        <li><a href="../our services.html"> Our Services </a> </li>
+                        <li><a href="../contact.html"> Contact Us </a> </li>
+                        <li><a href="daily deals.html"> Daily deals  </a> </li>
+                        <li><a href="../login.html"> My Account  </a> </li>
+                <div class="cart">
+                    <!-- your cart -->
+                    <li><a href="#">  <img src="../images/cart.png" alt="cart png " width="45" height="45" style="vertical-align:middle;margin:1px 20px">  </a></li>
+                   </div>
+            </ul>
+            
+            </header>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                 <!-- SIDEBAR NAVIGATION href -->
+                <h4 >Category</h4>
+                <a href="../FAQS.html"> FAQ  </a>
+                <a href="home.html"> Clothing </a>
+                <a href="../electronics.html">Electronics </a>
+                <a href="../supermarket.html">Supermarket</a>
+                <a href="../phones.html">Phones</a>
+                <a href="../sports/1.ht.html">Sports</a>
+                <a href="../computing.html">Computing</a>
+                <a href="../Health&beauty.html">Health & beauty</a>
+                <a href="../furniture/furniture.html">Furniture & home </a>
+                <a href="../accessories.html">Accessories </a>
+            </div>
+    <nav class="menu">
+        <div id="logo">shopping</div>
+        <!--<div><img class="my img" src="images/download.jpg"></div>-->
+        <ul id="rmenu">
+            <li><a class="menu-item" href="home.html">clothing</a>
+                <div class="sub-content">
+                    <div class="sub-drop">
+                        <ul>
+                            <li><a href="men.html">men</a></li>
+                            <li><a href="woman.html">Woman</a></li>
+                            <li><a href="Boys Kids.html">Boys Kids</a></li>
+                            <li><a href="Girls Kids.html">Girls Kids</a></li>
+
+                        </ul>
+                    </div>
+                </div>    
+            </li>
+            <li><a class="menu-item" href="daily deals.html">Daily deals</a></li>
+        </ul>  
+
+    </nav>
+    <span class = "sidebar"  onclick="openNav()">&#9776; EXPLORE  </span>
+<h1 style="color: rgb(182, 13, 13);text-shadow: 7px 3px black; text-align: center; font-size: 70px;" >Welcome to clothes department</h1>
+<video style="position: absolute; top: calc(400px - 100px);left: 250px;" width="60%" height="50%"  controls autoplay loop >
+    <source src="video/Brand Root - Multi-Brand Fashion Store - Sirsa - Promotional Video ad_2.mp4">
+</video>
+</body>
+</html>
