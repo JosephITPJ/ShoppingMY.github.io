@@ -155,7 +155,7 @@ header{  /*navigation bar*/
     text-align: center;
     }
 .categories{
-   margin 70 px 0;
+   margin :70px 0;
 }
 .col-3{
    flex-basis: 30%;
@@ -169,3 +169,4 @@ header{  /*navigation bar*/
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+}
