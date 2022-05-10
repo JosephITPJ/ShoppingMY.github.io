@@ -70,6 +70,7 @@ h2 {
 .btn:hover,
 .btn:active {
   background-color: rgb(241, 221, 1);
+   color: #200016;
 }
 
 .btn--big {
