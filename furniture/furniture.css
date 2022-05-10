@@ -21,6 +21,9 @@ GREY COLOR: #343a40
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
+
+   
+  
   font-family: "Inter", sans-serif;
   color: #c3fae8;
   border-bottom: 8px solid #087f5b;
@@ -47,7 +50,9 @@ h2 {
   font-size: 36px;
   letter-spacing: -0.5px;
   /* 24 / 30 / 36 */
+ 
 }
+
 
 .grid-3-cols {
   display: grid;
@@ -86,6 +91,64 @@ h2 {
 img {
   border-radius: 12px;
 }
+.sidenav {
+  height: 90%;
+  width: 0 ;
+  position: fixed;
+  z-index: 1;
+  top: 1;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+/* href sidebar style */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ebe5e5;
+  display: block;
+  transition: 0.3s;
+}
+/*category style */
+.sidenav h4 {
+  padding: 4px 8px 8px 32px;
+  font-size: 30px;
+  color: #fcac00;
+}
+/* mouse hover sidbar elements */
+.sidenav a:hover {
+  color: #9f0707;
+}
+/* X style */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+ 
+}
+/* when the height of the screen is less than 450px, add a smaller padding and font-size*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  
+  .sidenav a {font-size: 18px;}
+}
+/* Explore style */
+  .sidebar{
+  
+    font-size:30px;
+    cursor:pointer;
+      color: #000000;
+     background-color: lightgreen;
+     padding: 5px;
+     border-radius: 10px;
+     text-align: right;
+    opacity: 0.9;
+    }
+
 
 /* ------------------------ */
 /* COMPONENT STYLES */
@@ -127,7 +190,7 @@ img {
 .features-icon {
   stroke: #087f5b;
   width: 32px;
-  heigh: 32px;
+  height: 32px;
   margin-bottom: 24px;
 }
 
@@ -165,7 +228,7 @@ img {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
-  color: ##e6fcf5;
+  color:#e6fcf5;
 }
 
 .testimonial-author {
