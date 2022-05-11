@@ -270,20 +270,20 @@ nav ul li a{
 .product:hover{
     transform: scale(1.02);
 }
-#load-more{
-    margin-top: 20px;
-    display: inline-block;
-    padding: 10px 30px;
-    border: 1px solid #334;
-    color:#334 ;
-    font-size: 16px;
-    background-color: #fff;
+#view-more{
+  display: none;
 }
-#load-more:hover{
-    background-color: red;
-    border-color: red;
-    color: #fff;
+#viewmore{
+  display:none ;
 }
+button{
+  color: black;
+  font-size: 1.5em;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 290px;
+}
+
 /*Footer style */
 .footer {
   left: 0px;
