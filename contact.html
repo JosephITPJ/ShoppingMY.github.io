@@ -1,50 +1,51 @@
-<!DOCTYPE html>
-<html lan="en">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width" , initial-scale=1.0>
-<link rel="stylesheet" href="css/contact.css">
-<title>Contact Us</title>
-</head>
+            <script>
 
-<body>
-    <!-- contact page -->
-    <div class="contact">
-        <div class="container">
-            <header>
-                <h1>Contact Us</h1>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rerum ex doloremque recusandae.
-                    Eligendi quae eum eos praesentium nulla in! Soluta provident ut quas nisi voluptas quasi at dicta
-                    explicabo!</p>
-            </header>
-            </div>
-            <div class="content">
-                <form action="">
-                    <input class="main-input" type="text" name="name" placeholder="Your Name">
-                    <input class="main-input" type="email" name="mail" placeholder="Your Email">
-                    <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
-                    <input type="submit" value="Send Messsage">
-                </form>
-                <div class="info">
-                    <h4>Call US</h4>
-                    <span class="phone">0201023131832</span>
-                    <span class="phone">0201023131832</span>
-                    <h4>Our location</h4>
-                    <address>
-                    <p>1600 Amphitheatre Parkway</p>
-                    <p>Mountain View, CA 94043, USA</p>
-                    </address>
+                function goTo() {
+                    location.href = document.getElementById('link_id').value;
+                }
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+
+            </script>
+            </head>
+            
+            <body>
+                <header class="f-header"> 
+                    <!-- M Y R O N  href-->
+                    <h1> <a href="index.html" class="logo"> M Y R O N</a></h1>
+                    <!-- NAVIGATION BAR  -->
+                    <ul>
+                        <li><a href="index.html"> Home </a> </li>
+                        <li><a href="our services.html"> Our Services </a> </li>
+                        <li><a href="contact.html"> Contact Us </a> </li>
+                        <li><a href="clothing/daily deals.html"> Daily deals </a> </li>
+                        <li><a href="login.html"> My Account </a> </li>
+                        <div class="cart">
+                            <!-- your cart -->
+                            <li><a href="#"> <img src="images/cart.png" alt="cart.png " width="45" height="45"
+                                        style="vertical-align:middle;margin:1px 20px"> </a></li>
+                        </div>
+                    </ul>
+            
+                </header>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <!-- SIDEBAR NAVIGATION href -->
+                    <h4>Category</h4>
+                    <a href="FAQS.html"> FAQ </a>
+                    <a href="clothing/Home.html"> Clothing </a>
+                    <a href="electronics.html">Electronics </a>
+                    <a href="supermarket.html">Supermarket</a>
+                    <a href="phones.html">Phones</a>
+                    <a href="sports/1.ht.html">Sports</a>
+                    <a href="computing.html">Computing</a>
+                    <a href="Health&beauty.html">Health & beauty</a>
+                    <a href="furniture/furniture.html">Furniture & home </a>
+                    <a href="accessories.html">Accessories </a>
                 </div>
-            </div>
-        </div>
-    </div>
-        <div class="foot">
-            @Copyright
-            <a href="index.html">M Y R O N </a>
-            2022- All Right Reserved.
-        </div>
-
-</body>
-</html>
-<!-- end contact page -->
+                <span class="sidebar" onclick="openNav()">&#9776; EXPLORE </span>
