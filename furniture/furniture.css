@@ -20,6 +20,50 @@ GREY COLOR: #343a40
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
+header{  /*navigation bar*/
+    display : flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin : 15px;
+    
+
+}
+
+header ul  {
+    display : flex ;
+    justify-content: center ;
+    align-items:center ;
+    list-style : none ;
+    
+}
+header ul li{  /*mmargin right to lists */
+    margin-right: 20px;
+}
+
+header ul li a {   /*links border and padding*/
+  
+    padding: 6px  15px;
+    border-radius: 20px;
+    
+}
+
+header ul li a:hover  { /*hover on links in nav bar */
+    background: rgb(241, 221, 1);
+    color: #200016;
+}
+
+h2{   /*myron css*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:white;
+    
+}
+h2 a:hover{ /*myron mouse hover*/
+  
+  color: rgb(195, 255, 0);
+  padding: 2px;
+}
+
 body {
 
    
